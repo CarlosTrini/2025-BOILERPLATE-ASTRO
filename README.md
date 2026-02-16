@@ -20,58 +20,52 @@ Inside of your Astro project, you'll see the following folders and files:
 ```text
 /
 ├── public/
+│   ├── fonts/
+│   ├── images/
 │   └── favicon.svg
 ├── src
-│   │ 
-│   ├── assets
-│   │   └──images
-│   │ 
-│   ├── components
-│   │   └── shared
-│   │     └────BaseHead.astro
-│   │ 
-│   ├── helpers
-│   │   └── navMobile.astro
-│   │   └── siteTheme.ts
-│   │ 
-│   ├── layouts
-│   │   └── Layout.astro
-│   │ 
-│   └── pages
-│   │    └── index.astro
-│   │ 
-│   ├── styles
-│   │   │── components
-│   │   │── layout
-│   │   │  └──── layout.module.css
-│   │   │── pages
-│   │   │  └──── home.module.css
-│   │   │── utils
-│   │   │  └────  _colors.css
-│   │   │  └────  _containers.css
-│   │   │  └────  _fonts.css
-│   │   │  └────  _generics.css
-│   │   │  └────  _tags.css
-│   │   └── globals.css
-│   │
-└── package.json
+│   ├── assets/
+│   │   ├── fonts/
+│   │   └── images/
+│   │
+│   ├── components/
+│   │   └── BaseHead.astro
+│   │
+│   ├── constants/
+│   │
+│   ├── hooks/
+│   │
+│   ├── layouts/
+│   │   └── Layout.astro
+│   │
+│   ├── lib/
+│   │
+│   ├── pages/
+│   │    └── index.astro
+│   │
+│   ├── styles/
+│   │   ├── partials/
+│   │   │   ├── _colors.css
+│   │   │   ├── _containers.css
+│   │   │   ├── _fonts.css
+│   │   │   ├── _tags.css
+│   │   └── global.css
+│   │
+│   ├── types/
+│   │
+│   ├── utils/
+│   │   └── siteTheme.ts
+│   │
+│   └── notes.txt
+├── package.json
+├── astro.config.mjs
+└── tsconfig.json
 ```
 
 ## 🚀 Dependencies
 
 ```text
-/
-"dependencies": {
-    "@astrojs/react": "^4.3.0",
-    "@tailwindcss/vite": "^4.1.11",
-    "@types/react": "^19.1.9",
-    "@types/react-dom": "^19.1.7",
-    "astro": "^5.12.9",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "tailwindcss": "^4.1.11"
-  }
-
+Review package.json for the latest dependency versions.
 ```
 
 ## 🧞 Commands
@@ -86,4 +80,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-

@@ -54,7 +54,7 @@ export const allAboutTheme = () => {
     if (themesButton) {
         themesButton.forEach(themeButton => {
             themeButton.addEventListener("click", () => {
-                //   import("../helpers/siteTheme").then((module) => {
+                //   import("../utils/siteTheme").then((module) => {
                 //     module.changeTheme();
                 //     module.changeHeroImageTheme();
                 //   });

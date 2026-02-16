@@ -25,11 +25,20 @@
       "@styles/*": [
         "src/styles/*"
       ],
-      "@helpers/*": [
-        "src/helpers/*"
+      "@utils/*": [
+        "src/utils/*"
       ],
-      "@services/*": [
-        "src/services/*"
+      "@lib/*": [
+        "src/lib/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ],
+      "@constants/*": [
+        "src/constants/*"
       ]
     },
     "jsx": "react-jsx",
