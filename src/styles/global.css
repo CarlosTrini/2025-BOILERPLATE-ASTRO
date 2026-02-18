@@ -1,9 +1,23 @@
 @import "tailwindcss";
-@import './partials/_tags.css';
 
-@import './partials/_fonts.css';
-@import './partials/_containers.css';
+@import './partials/_tags.css';
 @import './partials/_colors.css';
+
+/* crear variables propias en tailwind  */
+@theme {
+    --default-font-family: "Outfit", sans-serif;
+    --color-coffee-50: #fcf8ee;
+    --color-coffee-100: #ebe7de;
+    --color-coffee-200: #ead59d;
+    --color-coffee-300: #dfbb6a;
+    --color-coffee-400: #d7a648;
+    --color-coffee-500: #ce8a32;
+    --color-coffee-600: #b66b29;
+    --color-coffee-700: #975026;
+    --color-coffee-800: #7c3f24;
+    --color-coffee-900: #5e311e;
+    --color-coffee-950: #3a1a0e;
+}
 
 
 /* LOS COLORES Y FUENTES PUEDEN CAMBIAR SEGÚN EL PROYECTO */
@@ -35,59 +49,4 @@
     --padding-90: 0 calc((100vw - 90vw) /2);
     --padding-95: 0 calc((100vw - 95vw) /2);
 
-    /* SIZES */
-    /* --size-75-percent: 75%;
-    --size-80-percent: 80%;
-    --size-85-percent: 85%;
-    --size-90-percent: 90%;
-    --size-95-percent: 95%; */
-}
-
-
-
-
-/* DARK MODE */
-/* body[data-theme="dark"] {
-  --color-body:; 
-  --color-white:;
-  --color-dark:faf7f7;
-  --color-white-full:;
-  --color-dark-full:;
---color-primary:; 
---color-secondary:; 
---color-tertiary:; 
---color-quaternary:; 
---color-quinary:; 
-} */
-
-
-
-
-@font-face {
-    font-family: 'Bevan-Regular';
-    src: url('/fonts/Bevan-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Bevan-Italic';
-    src: url('/fonts/Bevan-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'Inika-Regular';
-    src: url('/fonts/Inika-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Inika-Bold';
-    src: url('/fonts/Inika-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
