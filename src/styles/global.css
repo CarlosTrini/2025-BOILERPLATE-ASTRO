@@ -3,7 +3,7 @@
 @import './partials/_tags.css';
 @import './partials/_colors.css';
 
-/* crear variables propias en tailwind  */
+/* crear variables propias en tailwind coffee puede ser reemplazado por otro variedad de tonalidades ... y de otros colores bg-coffee-50...950 , text-coffe-50...950  */
 @theme {
     --default-font-family: "Outfit", sans-serif;
     --color-coffee-50: #fcf8ee;
@@ -35,13 +35,6 @@
     --color-quinary: #C9DFF2;
     --color-senary: #D8C819;
     --color-octonary: #0B1630;
-
-
-    /*FONT*/
-    --font-bevan-italic: Bevan-Italic;
-    --font-bevan-regular: Bevan-Regular;
-    --font-inika-regular: Inika-Regular;
-    --font-inika-bold: Inika-Bold;
 
     --padding-75: 0 calc((100vw - 75vw) /2);
     --padding-80: 0 calc((100vw - 80vw) /2);
